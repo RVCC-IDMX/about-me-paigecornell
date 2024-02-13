@@ -1,0 +1,33 @@
+body {
+font-family: Comic Neue;
+background-color: #F5D98E;
+color: #756D54;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 30pt;
+
+}
+header {
+text-align: center;
+
+
+}
+
+#hero, footer {
+text-align: center;
+background-color: #29314B;
+border: 3px solid #8EA5F5;
+padding: 10px; 
+
+
+}
+#hero img {
+width: 300px;
+
+}
+
+#bio{
+text-align: center;
+
+}
