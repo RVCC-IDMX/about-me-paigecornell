@@ -57,6 +57,19 @@ max-width: 100%;
 
 }
 
+/* Literature */
+#lit{
+border: 4px solid #D98E43;
+margin-bottom: 2rem;
+}
+
+#div{
+padding: 2rem;
+max-width: 40rem;
+margin: 0 auto; 
+
+}
+
 
 
 
