@@ -35,10 +35,12 @@ font-size: 20px;
 #hobbies ul :nth-child(even){
 text-align: left;
 color:blueviolet;
-
-
 }
 
+#hobbies ul :nth-child(odd){
+text-align: left;
+color:green;
+}
 
 
 
