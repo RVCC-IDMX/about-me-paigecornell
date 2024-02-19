@@ -28,6 +28,22 @@ width: 300px;
 }
 
 #bio{
-text-align: center;
+text-align: left;
+font-size: 20px;
+}
+
+#hobbies ul :nth-child(even){
+color:blueviolet;
+
 
 }
+
+
+
+
+
+
+
+
+
+
