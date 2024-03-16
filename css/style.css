@@ -77,13 +77,27 @@ margin-bottom: 2rem;
 text-align: left; 
 max-width: 100%;
 columns: 40rem;
+
 }
 
-#div{
+#lit div{
 padding: 2rem;
 max-width: 40rem;
 margin: 0 auto;
 
+#lit div p {
+padding: 0.3 rem 0;
+clear: both;
+
+#lit div p: first-letter {
+color: rgb (238, 255, 0);
+font-size: 2em;
+border: 4px outset #ffe600;
+text-shadow: 4px 2px 3px rgba (0, 0, 0, .5);
+
+}
+
+}
 
 }
 
@@ -98,12 +112,14 @@ grid-template-columns: 2fr 1fr;
 
 }
 
-figcaption {
+fig caption {
 display: flex;
 justify-content: center;
 align-items: center;
 font-size: 2rem;
 margin-left: 1rem;
+
+}
 
 figure img {
 width: 100%;
@@ -112,12 +128,6 @@ width: 100%;
 #lit {
 max-width: 100%;
 columns: 20; 
-}
-
-
-
-
-
 }
 
 /* Large Screen Size */
@@ -153,7 +163,4 @@ display: block;
 
 
     
-
-
-
 
