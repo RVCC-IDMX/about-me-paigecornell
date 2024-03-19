@@ -123,13 +123,13 @@ columns: 20;
 #gallery {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
+}
 
-#literature
+#literature {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr; 
 
 }
-
 hr {
 display: none;
 
