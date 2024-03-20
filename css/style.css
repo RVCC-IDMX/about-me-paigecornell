@@ -149,6 +149,13 @@ display: block;
 
 }
 }
+#short-video {
+    border: 4px solid #D98E43;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    align-items: center;
+    }
+
 
 
 
