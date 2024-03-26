@@ -156,10 +156,8 @@ display: block;
     align-items: center;
     }
 
+/* Contact Form */
+#formElements {
+display: grid;
 
-
-
-
-
-    
-
+}

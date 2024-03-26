@@ -99,8 +99,73 @@
 Birds at a bird feeder.
 </section>
 
+<section id="contact">
+<h2> Contact Us:</h2>
+<form id="contactForm" name="contactForm" method="post" data-netlify="true">
+<fieldset>
+<legend>Contact Form</legend>
+
+<div id="formElements">
+<!-- Name -->
+<label for="name">Name (Required)</label>
+<input type="text" id="name" name="name" required>
+
+<!-- Email -->
+<label for="email">Email (Required)</label>
+<input type="email" id="email" name="email" required>
+
+<!-- Phone -->
+<label for="phone">Phone (Optional)</label>
+<input type="tel" id="phone" name="phone" optional>
+
+<!-- Phone Type -->
+<label for="phonetype">Phone Type (Optional)</label>
+<select id="phonetype" name="phonetype">
+<option value="" selected>Select Phone Type</option>
+<option value="Mobile" selected>Mobile</option>
+<option value="Work" selected>Work</option>
+<option value="Home" selected>Home</option>
+</select>
+<!-- Message -->
+<label for="message"> Message (Optional)</label>
+<textarea id="message" name="message" rows="8"></textarea>
+<!-- Reply -->
+<fieldset>
+<legend>Would You Like a Reply?</legend>
+<ul>
+<li> 
+    <input type="radio" id="message-yes" name="reply" value="Yes">
+    <label for="message-yes">Yes a reply would be nice.</label>
+    
+</li>
+    
+<li> 
+    <input type="radio" id="message-no" name="reply" checked="true" value="No">
+    <label for="message-no">No, thanks.</label>
+</li>
+<!-- Submit -->
+<p>Submit Form</p>
+
+<button>Send</button>
+
+</ul>
+
+
+
+
+</fieldset>
+
+</div>
+
+</fieldset>
+
+
+</form> 
+</section>
+
     <footer>
     © 2024 - Paige Cornell 
+
 
 
 
