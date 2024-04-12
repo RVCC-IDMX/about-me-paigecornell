@@ -1,4 +1,4 @@
-# About Me
+![pc-logo](https://github.com/RVCC-IDMX/about-me-paigecornell/assets/159052416/1af59ab1-56ae-4b36-a0c4-8581311e30bd)# About Me
 Paige Cornell
 [![Netlify Status](https://api.netlify.com/api/v1/badges/426b48b0-7243-462d-95ab-f21eef936fd9/deploy-status)](https://app.netlify.com/sites/about-me-paigecornell/deploys) 
 
@@ -13,7 +13,6 @@ This color scheme will consit of pastel colors such as light blues, greens and a
 RGB/HEX Codes
 
 [Color Wheel.] ![Color Wheel](https://github.com/RVCC-IDMX/about-me-paigecornell/assets/159052416/8eb94027-239c-4ffc-9171-7020fe8d44b9) [Color Scheme Guide.] ![Color Scheme Guide](https://github.com/RVCC-IDMX/about-me-paigecornell/assets/159052416/d1a3f967-155e-4d88-94bf-08598466a7a4)
-
 
 - #B3FACD
 - #2AD4FA
