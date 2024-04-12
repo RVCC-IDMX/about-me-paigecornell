@@ -68,18 +68,74 @@ margin-top: 2rem;
 
 #gallery img{
 max-width: 100%;
-
-
-
 }
 
 /* Literature */
 #literature {
-border: 4px solid #2A93FA;
-margin-bottom: 2rem;
-margin-top: 2rem;
-text-align: justify;
-padding: 2rem;
+    border: 4px solid #2A93FA;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: justify;
+    padding: 2rem;
+
+}
+/* Photo Overlay */ 
+.grid {
+    display: grid;
+    grid-template-columns: repeat (auto-fit);
+
+.img-wrapper {
+    position: relative;
+    overflow: hidden; 
+}
+
+.img-wrapper > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+
+.img-wrapper > content {
+    position: absolute;
+    inset: 0;
+    font-size: 2rem;
+    padding: 1rem; 
+    background: rgba (255, 255, 255, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+.img-wrapper > img,
+.img-wrapper > .content {
+    transition: 200ems ease-in-out; 
+
+ .img-wrapper > .content.fade {
+        opacity: 0; 
+    }
+
+.img-wrapper:hover > .content.fade {
+    opacity: 1; 
+}
+
+}
+
+
+}
+
+
+}
+
+}
+
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 60%; 
+
+}
 
 .dropcap {
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -87,10 +143,9 @@ float: left;
 font-size: 6rem;
 line-height: 0.65;
 margin: 0.1em 0.1em 0.2em 0;
-
 }
 
-}
+
 
 /* Tablet Size */
 @media screen and (min-width: 60em) {
