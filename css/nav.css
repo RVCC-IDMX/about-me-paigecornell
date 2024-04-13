@@ -101,4 +101,53 @@ justify-content: space-between;
 
 }
 
-    
+.off-screen-menu {
+background-color: #333;
+height: 100vh; 
+width: 100%;
+max-width: 450px;
+position: fixed;
+top: 0;
+right: -450px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 3rem;
+transition: .3ease;
+}
+
+.off-screen menu.active {
+right: 0; 
+}
+
+nav {
+padding: 1rem;
+display: flex;
+background-color: #333;
+}
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+
+:root {
+  --background: rgba(0, 214, 170, .85);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+	margin: 0;
+    background-color: #B3FACD;
+    font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+.content {
+  height: 200vh;
+  background-image: url(//unsplash.it/1000/1000);
+  background-color: #B3FACD;
+  background-blend-mode: multiply;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}

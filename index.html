@@ -13,21 +13,39 @@
 <link href="css/nav.css" rel="stylesheet">
 </head>
 <body>
-
     <header>
     <!--nav bar-->
+     <!--hamburger menu-->
+    <div class="off-screen-menu">
+    <ul>
+        <li> Bio </li>
+        <li> Gallery </li>
+        <li> Blog </li>
+        <li> Contact </li>
+    
+    </ul> 
+    </div>
+        <nav>
+        <div class="ham-menu" onclick="toggleMenu ()">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+        </div>
+        </nav>
        <nav class="navbar"> 
         <div class="logo">
+
             <img src="img/pc-logo.svg" alt="Paige's Logo">
             <h1>  Web Dev I </h1>
         </div>
+        <div> 
         <div class="navbar-links">
         <ul>
             <li><a href="#bio">Bio</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#literature">Blog</a></li>
             <li><a href="#contact">Contact Me</a></li>
-            
+        </div>
         </ul>
         <html>
         </div>
@@ -88,19 +106,14 @@
 
     <figcaption>Pages of a book.</figcaption>
 
-    <img src="img/mouse-640w.jpg" alt="a computer mouse" class="center">
-    
+    <img src="img/mouse.jpg">
     <figcaption>A computer mouse and mouse pad.</figcaption>
     </figure>
     </section>
 
     <article id="literature">
     <div>
-    <div class="grid">
-    <div class="img-wrapper"></div>
-    <img src="img/wall mural.PNG" alt = "wall mural in Greece" class="center"> 
-    </div>
-    <div class="content fade"> Social media has created an addictive atmosphere.</div>
+    <img src="img/wall mural.PNG" alt="wall mural" class="center">
     <h2>The Impact Social Media Has on Youth</h2>
     
     <p class = "dropcap"> S<p>ince the creation of social media, the influence it has had on culture is undeniable. But even more so its effect on the youth who have grown up surrounded by technology, screens and social media. Youth are especially impressionable which makes the amount of social media content they consume potentially all the more dangerous. In this blog post, I will do a deep dive into what experts say are the impacts social media has on youth and teenagers as well as if there are any steps to take to protect them.</p>
@@ -109,91 +122,89 @@
     <p>There is also the matter of body image issues that stem from younger people using social media. Teenagers are constantly comparing themselves to what they see on apps such as Instagram, YouTube and TikTok, where you are always looking at others in these mediums. Among the problems studied, body image issues seem to be a leading cause when it comes to younger people and social media. </p>
     <p>Ultimately, there are steps that can be taken to help teenagers and the youth of today from experiencing these negative side effects from social media. According to the Surgeon General, there site “calls for engaging in a multifaceted effort to maximize the benefits and reduce the risk of harm posed by social media with actions suggested for groups including: children and adolescents, policymakers, technology companies, researchers and families.” (Author Unknown, the U.S. Surgeon General). It is steps such as setting boundaries with social media, being careful about what you post, and taking measurements to shield yourself and others from cyberbullying. </p>
 
-    <img src="img/social media.PNG" alt="girl looking at phone" class="center"> 
+    <img src="img/social media.PNG" alt="girl looking at phone" class="center">
     </div>
-
     </article>
-
-<section id ="short-video">
-<h2>A Short Video </h2>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zbI3dKa9U78?si=fXOR6HcTDuaTT6tA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-Birds at a bird feeder.
-</section>
-
-<section id="contact">
-<h2> Contact Us:</h2>
-<form id="contactForm" name="contactForm" method="post" data-netlify="true">
-<fieldset>
-<legend>Contact Form</legend>
-
-<div id="formElements">
-<!-- Name -->
-<label for="name">Name (Required)</label>
-<input type="text" id="name" name="name" required placeholder="Name">
-
-<!-- Email -->
-<label for="email">Email (Required)</label>
-<input type="email" id="email" name="email" required placeholder="Email">
-
-<!-- Phone -->
-<label for="phone">Phone (Optional)</label>
-<input type="tel" id="phone" name="phone" optional placeholder="Phone">
-
-<!-- Phone Type -->
-<label for="phonetype">Phone Type (Optional)</label>
-<select id="phonetype" name="phonetype">
-<option value="" selected>Select Phone Type</option>
-<option value="Mobile" selected>Mobile</option>
-<option value="Work" selected>Work</option>
-<option value="Home" selected>Home</option>
-</select>
-<!-- Message -->
-<label for="message"> Message (Optional)</label>
-<textarea id="message" name="message" rows="8" placeholder="Leave a comment!"></textarea>
-<!-- Reply -->
-<section id="reply"></section>
-<fieldset>
-<legend>Would You Like a Reply?</legend>
-<ul>
-<li> 
-    <input type="radio" id="message-yes" name="reply" value="Yes">
-    <label for="message-yes">Yes a reply would be nice.</label>
-    
-</li>
-    
-<li> 
-    <input type="radio" id="message-no" name="reply" checked="true" value="No">
-    <label for="message-no">No, thanks.</label>
-</li>
-<!-- Submit -->
-<p>Submit Form</p>
-
-<button>Send</button>
-
-</ul>
-
-
-
-
-</fieldset>
-
-</div>
-
-</fieldset>
-
-</form> 
-</section>
-
-    <footer>
-    © 2024 - Paige Cornell 
-
-
-
-
-    </footer>
-    
-
-</body>
-</html>
+    <section id ="short-video">
+        <h2>A Short Video </h2>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zbI3dKa9U78?si=fXOR6HcTDuaTT6tA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+        Birds at a bird feeder.
+        </section>
+        
+        <section id="contact">
+        <h2> Contact Us:</h2>
+        <form id="contactForm" name="contactForm" method="post" data-netlify="true">
+        <fieldset>
+        <legend>Contact Form</legend>
+        
+        <div id="formElements">
+        <!-- Name -->
+        <label for="name">Name (Required)</label>
+        <input type="text" id="name" name="name" required placeholder="Name">
+        
+        <!-- Email -->
+        <label for="email">Email (Required)</label>
+        <input type="email" id="email" name="email" required placeholder="Email">
+        
+        <!-- Phone -->
+        <label for="phone">Phone (Optional)</label>
+        <input type="tel" id="phone" name="phone" optional placeholder="Phone">
+        
+        <!-- Phone Type -->
+        <label for="phonetype">Phone Type (Optional)</label>
+        <select id="phonetype" name="phonetype">
+        <option value="" selected>Select Phone Type</option>
+        <option value="Mobile" selected>Mobile</option>
+        <option value="Work" selected>Work</option>
+        <option value="Home" selected>Home</option>
+        </select>
+        <!-- Message -->
+        <label for="message"> Message (Optional)</label>
+        <textarea id="message" name="message" rows="8" placeholder="Leave a comment!"></textarea>
+        <!-- Reply -->
+        <section id="reply"></section>
+        <fieldset>
+        <legend>Would You Like a Reply?</legend>
+        <ul>
+        <li> 
+            <input type="radio" id="message-yes" name="reply" value="Yes">
+            <label for="message-yes">Yes a reply would be nice.</label>
+            
+        </li>
+            
+        <li> 
+            <input type="radio" id="message-no" name="reply" checked="true" value="No">
+            <label for="message-no">No, thanks.</label>
+        </li>
+        <!-- Submit -->
+        <p>Submit Form</p>
+        
+        <button>Send</button>
+        
+        </ul>
+        
+        
+        
+        
+        </fieldset>
+        
+        </div>
+        
+        </fieldset>
+        
+        </form> 
+        </section>
+        
+            <footer>
+            © 2024 - Paige Cornell 
+        
+        
+        
+        
+            </footer>
+            
+        
+        </body>
+        </html>
