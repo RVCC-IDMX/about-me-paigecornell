@@ -22,7 +22,9 @@ RGB/HEX Codes
 - #7EFAE8
 
 Citations
-- N/A.
+- Author Unknown, "Social Media and Youth Mental Health." U.S. Department of Health and Human Services, 2024. https://www.hhs.gov/surgeongeneral/priorities/youth-mental-health/social-media/index.html
+- Ehmke, Rachel. "How Using Social Media Affects Teenagers" Child Mind Institute, August 10, 2023. https://childmind.org/article/how-using-social-media-affects-teenagers/
+- KCLA Staff, "Social Media Use and Health Impacts on Youth." CBS News, May 24, 2023. https://www.cbsnews.com/losangeles/news/social-media-use-and-health-impacts-on-youth/
 
 License
 - Free Use.
