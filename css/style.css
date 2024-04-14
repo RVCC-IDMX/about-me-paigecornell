@@ -86,7 +86,26 @@ body {
             margin-right: auto;
             width: 50%;
           }
+   h2 {
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    }
     
+    h2 {
+      font-size: 15vw;
+      background-image: url(https://unsplash.com/photos/blue-red-and-green-letters-illustration-mr4JG4SYOF8)
+      background-size: cover;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+   } 
+
+        
     }
     /* Photo Overlay */ 
     .grid {
@@ -136,8 +155,7 @@ body {
     }
     
     }
-    
-    
+        
     .center {
     display: block;
     margin-left: auto;
@@ -268,13 +286,9 @@ body {
     #contact input, #contact textarea, #contact select, #contact button {
     padding: .5em;
     font-size: 1rem;
-    
-        
+          
     }
-    
-    
-    
-    
+  
     }
     @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
     
