@@ -86,6 +86,28 @@ body {
             margin-right: auto;
             width: 50%;
           }
+ }
+,container {
+display: inline-block;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 24px; 
+}
+
+.typed {
+overflow: hidden;
+white-space: nowrap;
+width: 0; 
+animation: typing;
+animation-duration: 1.5s;
+animation-timing-function: steps (30, end);
+animation-fill-mode: forwards; 
+}
+
+@keyframes typing {
+from {width: 0}
+to {width: 100%}
+}
+    
    h2 {
     body {
       height: 100vh;
@@ -94,19 +116,9 @@ body {
       align-items: center;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
     }
+    }
+   }        
     
-    h2 {
-      font-size: 15vw;
-      background-image: url(https://unsplash.com/photos/blue-red-and-green-letters-illustration-mr4JG4SYOF8)
-      background-size: cover;
-      background-clip: text;
-      -webkit-background-clip: text;
-      color: transparent;
-    }
-   } 
-
-        
-    }
     /* Photo Overlay */ 
     .grid {
         display: grid;
@@ -316,10 +328,10 @@ body {
             left: 0; 
             
             }
-    #hbutton, #htoggle {display: none;}
+    #hambutton, #hamtoggle {display: none;}
     
-    #hitems {display: flex;}
-    #hitems > * {
+    #hamitems {display: flex;}
+    #hamitems > * {
     flex-grow: 1; flex-basis: 0; /*equal width*/
     padding: 10px; color: #fff; 
     text-decoration: none; text-align: center; 
@@ -334,20 +346,20 @@ body {
     }
     /*small screens*/
     @media screen and (max-width: 768px) {
-    #hitems {flex-wrap: wrap;}
-    #hitems > * {width: 100%; flex-basis: auto;} 
+    #hamitems {flex-wrap: wrap;}
+    #hamitems > * {width: 100%; flex-basis: auto;} 
     
     }
     
     /*hamburger menu button*/
-    #hbutton {
+    #hambutton {
     display: inline-block;#
-    color: #fff; background: #7EFAE8;
+    background-color: color: #fff; background: #7EFAE8;
     font-size: 1.2em; padding: 10px;
     margin-top: 2rem; 
     cursor: pointer; 
     }
     
-    /*hide menu items*/
-    #hitems {display: none;}
-    #htoggle checked ~ #hitems {display: flex;}
+    /*hiding menu items*/
+    #hamitems {display: none;}
+    #hamtoggle checked ~ #hitems {display: flex;}
