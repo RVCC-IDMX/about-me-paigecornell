@@ -26,5 +26,10 @@ Citations
 - Ehmke, Rachel. "How Using Social Media Affects Teenagers" Child Mind Institute, August 10, 2023. https://childmind.org/article/how-using-social-media-affects-teenagers/
 - KCLA Staff, "Social Media Use and Health Impacts on Youth." CBS News, May 24, 2023. https://www.cbsnews.com/losangeles/news/social-media-use-and-health-impacts-on-youth/
 
+Code Citations
+- https://www.w3schools.com/howto/howto_css_image_center.asp
+- https://www.youtube.com/watch?v=ppG_2kiARJ4
+- https://blog.hubspot.com/website/typing-animation-css
+
 License
 - Free Use.
