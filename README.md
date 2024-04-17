@@ -21,15 +21,23 @@ RGB/HEX Codes
 - #2A93FA
 - #7EFAE8
 
+About the Nav Bar
+  
+This website features a hamburger menu off to the left side of the page. It's purpose is to help those working on mobile devices/touch devices a quicker way to access the contents of the page.
+
 Citations
 - Author Unknown, "Social Media and Youth Mental Health." U.S. Department of Health and Human Services, 2024. https://www.hhs.gov/surgeongeneral/priorities/youth-mental-health/social-media/index.html
 - Ehmke, Rachel. "How Using Social Media Affects Teenagers" Child Mind Institute, August 10, 2023. https://childmind.org/article/how-using-social-media-affects-teenagers/
 - KCLA Staff, "Social Media Use and Health Impacts on Youth." CBS News, May 24, 2023. https://www.cbsnews.com/losangeles/news/social-media-use-and-health-impacts-on-youth/
 
 Code Citations
-- https://www.w3schools.com/howto/howto_css_image_center.asp
-- https://www.youtube.com/watch?v=ppG_2kiARJ4
-- https://blog.hubspot.com/website/typing-animation-css
+- Author Unknown, "How To Center an Image". https://www.w3schools.com/howto/howto_css_image_center.asp
+- Dev + Coffee, "Hamburger Menu In HTML CSS (No Javascript), 2024. "https://www.youtube.com/watch?v=ppG_2kiARJ4
+- Juviler, Jamie, "How to Create a Typing Animation in CSS [Step-By-Step Guide]", 2023. https://blog.hubspot.com/website/typing-animation-css/ 
+
+Photos
+
+Photos used in this website are copyright free. 
 
 License
 - Free Use.
