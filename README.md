@@ -21,6 +21,10 @@ RGB/HEX Codes
 - #2A93FA
 - #7EFAE8
 
+About the Nav Bar
+  
+This website features a hamburger menu off to the left side of the page. It's purpose is to help those working on mobile devices/touch devices a quicker way to access the contents of the page.
+
 Citations
 - Author Unknown, "Social Media and Youth Mental Health." U.S. Department of Health and Human Services, 2024. https://www.hhs.gov/surgeongeneral/priorities/youth-mental-health/social-media/index.html
 - Ehmke, Rachel. "How Using Social Media Affects Teenagers" Child Mind Institute, August 10, 2023. https://childmind.org/article/how-using-social-media-affects-teenagers/
