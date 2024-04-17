@@ -31,9 +31,9 @@ Citations
 - KCLA Staff, "Social Media Use and Health Impacts on Youth." CBS News, May 24, 2023. https://www.cbsnews.com/losangeles/news/social-media-use-and-health-impacts-on-youth/
 
 Code Citations
-- https://www.w3schools.com/howto/howto_css_image_center.asp
-- https://www.youtube.com/watch?v=ppG_2kiARJ4
-- https://blog.hubspot.com/website/typing-animation-css
+- Author Unknown, "How To Center an Image". https://www.w3schools.com/howto/howto_css_image_center.asp
+- Dev + Coffee, "Hamburger Menu In HTML CSS (No Javascript), 2024. "https://www.youtube.com/watch?v=ppG_2kiARJ4
+- Juviler, Jamie, "How to Create a Typing Animation in CSS [Step-By-Step Guide]", 2023. https://blog.hubspot.com/website/typing-animation-css/ 
 
 Photos
 
