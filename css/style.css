@@ -87,20 +87,20 @@ body {
             width: 50%;
           }
  }
-,container {
-display: inline-block;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: 24px; 
+.container {
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px; 
 }
 
 .typed {
-overflow: hidden;
-white-space: nowrap;
-width: 0; 
-animation: typing;
-animation-duration: 1.5s;
-animation-timing-function: steps (30, end);
-animation-fill-mode: forwards; 
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0; 
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-timing-function: steps (30, end);
+    animation-fill-mode: forwards; 
 }
 
 @keyframes typing {
