@@ -35,5 +35,9 @@ Code Citations
 - https://www.youtube.com/watch?v=ppG_2kiARJ4
 - https://blog.hubspot.com/website/typing-animation-css
 
+Photos
+
+Photos used in this website are copyright free. 
+
 License
 - Free Use.
