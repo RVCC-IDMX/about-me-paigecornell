@@ -26,9 +26,9 @@ About the Nav Bar
 This website features a hamburger menu off to the left side of the page. It's purpose is to help those working on mobile devices/touch devices a quicker way to access the contents of the page.
 
 Citations
-- Author Unknown, "Social Media and Youth Mental Health." U.S. Department of Health and Human Services, 2024. https://www.hhs.gov/surgeongeneral/priorities/youth-mental-health/social-media/index.html
-- Ehmke, Rachel. "How Using Social Media Affects Teenagers" Child Mind Institute, August 10, 2023. https://childmind.org/article/how-using-social-media-affects-teenagers/
-- KCLA Staff, "Social Media Use and Health Impacts on Youth." CBS News, May 24, 2023. https://www.cbsnews.com/losangeles/news/social-media-use-and-health-impacts-on-youth/
+- Author Unknown, "Kinetic Typography Trends & The Different Types Of Text Animation". https://www.contentcreatures.com/kinetic-typography-different-types-of-animated-text/
+- Author Unknown, "How Text Animation Can Help You Bring Your Business to Life". https://levitatemedia.com/learn/text-animation/
+- Ferreira, Milber. "The History of Web Animation", August 10, 2017. https://medium.com/@milberferreira/the-history-of-web-animation-63b106c97fdf/
 
 Code Citations
 - Author Unknown, "How To Center an Image". https://www.w3schools.com/howto/howto_css_image_center.asp
